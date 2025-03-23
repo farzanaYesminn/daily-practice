@@ -1,0 +1,103 @@
+*{
+padding: 0px;
+margin: 0px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+
+li{
+list-style: none;
+}
+
+a{
+text-decoration: none;
+color: black;
+}
+
+.container{
+max-width: 1200px;
+padding: 0px 5% ;
+}
+
+/* S Header Logo */
+.headerLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+.ictddLogo{
+    height: 50px;
+    width: 100px;
+}
+.ledpLogo{
+    height: 50px;
+    width: 100px;
+}
+/* E Header Logo */
+
+
+/* S Navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 5px;
+    box-shadow: 0px 1px 5px 0px #c3c0c0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+}
+#attend{
+    border:0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10px;
+  
+}
+/* E Navbar */
+
+/* S main  */
+.SRF_Title{
+    padding: 5px 0;
+    font-size: 15px;
+    color:#EC8701;
+}
+
+.dotted-line {
+    border-top: 1px dotted #b7b2b2;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    width: 75%;
+    margin-top: 5px;
+  }
+.formTitle{
+    padding: 5px 0;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.mandatory{
+    font-size: 5px;
+}
+
+.form{t
+    padding: 2px 0;
+    font-size: 10px;
+    color: dimgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.districtNote{
+    font-size: 5px;
+}
+
+input{
+    font-size: 10px;
+    color: dimgrey;
+}
+select{
+    font-size: 10px;
+    color: dimgrey;
+}
+/* E main  */
