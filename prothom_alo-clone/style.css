@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Shurjo;
+    src: url(./fonts/Shurjo-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+
+.title{
+    font-family: Shurjo, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+.para{
+    font-family: Shurjo, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+}
+.date{
+    font-family: Shurjo, sans-serif;
+    font-size: 10px;
+    line-height: 1.5;
+    color: #585858;
+}
+.image{
+    width: 50%;
+    height: auto;
+}
